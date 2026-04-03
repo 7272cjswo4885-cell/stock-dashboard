@@ -1,0 +1,24 @@
+FILE yahoo-rut.html blocks 38
+ BLOCK 1 len 24816
+[{"fullExchangeName":"CCC","symbol":"BTC-USD","coinImageUrl":"https://s2.coinmarketcap.com/static/img/coins/64x64/1.png","gmtOffSetMilliseconds":0,"language":"en-US","regularMarketTime":{"raw":1775107980,"fmt":"5:33AM UTC"},"regularMarketChangePercent":{"raw":-3.0346706,"fmt":"-3.03%"},"quoteType":"CRYPTOCURRENCY","typeDisp":"Cryptocurrency","tradeable":false,"regularMarketPreviousClose":{"raw":68
+ BLOCK 2 len 502
+{"status":200,"statusText":"OK","headers":{},"body":"{\"quoteType\":{\"result\":[{\"symbol\":\"^RUT\",\"quoteType\":\"INDEX\",\"exchange\":\"WCB\",\"shortName\":\"Russell 2000\",\"longName\":\" Russell 2000 Index\",\"messageBoardId\":\"finmb_INDEXRUT\",\"exchangeTimezoneName\":\"America/New_York\",\"exchangeTimezoneShortName\":\"EDT\",\"gmtOffSetMilliseconds\":\"-14400000\",\"market\":\"us_market\
+ BLOCK 3 len 6490
+{"status":200,"statusText":"OK","headers":{},"body":"{\"ads\":{\"client\":{\"DEFAULT\":{\"features\":{\"rotation\":{\"enabled\":true}}}},\"newsStream\":{\"slotInjectionRules\":{\"offset\":4},\"nativeAdInsertionRules\":{\"offset\":2,\"frequency\":6},\"displayAdInsertionRules\":{\"offset\":11,\"frequency\":12}},\"dockMoreNewsStream\":{\"nativeAdInsertionRules\":{\"offset\":2,\"frequency\":6},\"displ
+ BLOCK 4 len 343
+{"status":200,"statusText":"OK","headers":{},"body":"{\"primaryKey\":\"world_indices\",\"symbols\":\"^GSPC,^DJI,^IXIC,^NYA,^XAX,^BUK100P,^RUT,^VIX,^FTSE,^GDAXI,^FCHI,^STOXX50E,^N100,^BFX,IMOEX.ME,^N225,^HSI,000001.SS,399001.SZ,^STI,^AXJO,^AORD,^BSESN,^JKSE,^KLSE,^NZ50,^KS11,^TWII,^GSPTSE,^BVSP,^MXX,^IPSA,^MERV,^TA125.TA,^CASE30,^JN0U.JO\"}"}
+ BLOCK 5 len 350
+{"status":200,"statusText":"OK","headers":{},"body":"{\"finance\":{\"result\":[{\"symbol\":\"^RUT\",\"recommendedSymbols\":[{\"symbol\":\"^TNX\",\"score\":0.067984},{\"symbol\":\"^VIX\",\"score\":0.060811},{\"symbol\":\"^MID\",\"score\":0.055492},{\"symbol\":\"^NDX\",\"score\":0.052207},{\"symbol\":\"^RUI\",\"score\":0.042669}]}],\"error\":null}}"}
+FOUND BLOCKS 5
+FILE yahoo-ixic.html blocks 38
+ BLOCK 1 len 24610
+[{"fullExchangeName":"CCC","symbol":"BTC-USD","coinImageUrl":"https://s2.coinmarketcap.com/static/img/coins/64x64/1.png","gmtOffSetMilliseconds":0,"language":"en-US","regularMarketTime":{"raw":1775108280,"fmt":"5:38AM UTC"},"regularMarketChangePercent":{"raw":-3.067857,"fmt":"-3.07%"},"quoteType":"CRYPTOCURRENCY","typeDisp":"Cryptocurrency","tradeable":false,"regularMarketPreviousClose":{"raw":680
+ BLOCK 2 len 505
+{"status":200,"statusText":"OK","headers":{},"body":"{\"quoteType\":{\"result\":[{\"symbol\":\"^IXIC\",\"quoteType\":\"INDEX\",\"exchange\":\"NIM\",\"shortName\":\"NASDAQ Composite\",\"longName\":\"NASDAQ Composite\",\"messageBoardId\":\"finmb_INDEXIXIC\",\"exchangeTimezoneName\":\"America/New_York\",\"exchangeTimezoneShortName\":\"EDT\",\"gmtOffSetMilliseconds\":\"-14400000\",\"market\":\"us_mark
+ BLOCK 3 len 6490
+{"status":200,"statusText":"OK","headers":{},"body":"{\"ads\":{\"client\":{\"DEFAULT\":{\"features\":{\"rotation\":{\"enabled\":true}}}},\"newsStream\":{\"slotInjectionRules\":{\"offset\":4},\"nativeAdInsertionRules\":{\"offset\":2,\"frequency\":6},\"displayAdInsertionRules\":{\"offset\":11,\"frequency\":12}},\"dockMoreNewsStream\":{\"nativeAdInsertionRules\":{\"offset\":2,\"frequency\":6},\"displ
+ BLOCK 4 len 343
+{"status":200,"statusText":"OK","headers":{},"body":"{\"primaryKey\":\"world_indices\",\"symbols\":\"^GSPC,^DJI,^IXIC,^NYA,^XAX,^BUK100P,^RUT,^VIX,^FTSE,^GDAXI,^FCHI,^STOXX50E,^N100,^BFX,IMOEX.ME,^N225,^HSI,000001.SS,399001.SZ,^STI,^AXJO,^AORD,^BSESN,^JKSE,^KLSE,^NZ50,^KS11,^TWII,^GSPTSE,^BVSP,^MXX,^IPSA,^MERV,^TA125.TA,^CASE30,^JN0U.JO\"}"}
+ BLOCK 5 len 347
+{"status":200,"statusText":"OK","headers":{},"body":"{\"finance\":{\"result\":[{\"symbol\":\"^IXIC\",\"recommendedSymbols\":[{\"symbol\":\"^DJI\",\"score\":0.181234},{\"symbol\":\"^GSPC\",\"score\":0.164923},{\"symbol\":\"^TYX\",\"score\":0.100805},{\"symbol\":\"GE\",\"score\":0.073356},{\"symbol\":\"T\",\"score\":0.060713}]}],\"error\":null}}"}
+FOUND BLOCKS 5

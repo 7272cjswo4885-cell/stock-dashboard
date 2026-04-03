@@ -1,0 +1,20 @@
+﻿HTTP/1.1 401 Unauthorized
+content-type: application/json;charset=utf-8
+y-rid: 66a3l85kss10b
+vary: Origin
+content-length: 157
+x-envoy-upstream-service-time: 1
+date: Thu, 02 Apr 2026 05:52:11 GMT
+server: ATS
+x-envoy-decorator-operation: finance-quote-api--mtls-production-sg3.finance-k8s:4080/*
+Cache-Control: max-age=0, private
+Expires: -1
+Age: 0
+Strict-Transport-Security: max-age=31536000
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Connection: keep-alive
+
+{"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}

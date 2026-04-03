@@ -1,0 +1,3 @@
+https://finance.yahoo.com/quote/%5ERUT error Parse Error: Header overflow
+https://finance.yahoo.com/quote/%5EIXIC error Parse Error: Header overflow
+https://finance.yahoo.com/quote/DX-Y.NYB error Parse Error: Header overflow

@@ -1,0 +1,21 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+[TypeError: fetch failed] {
+  [cause]: HeadersOverflowError: Headers Overflow Error
+      at Parser.trackHeader (node:internal/deps/undici/undici:7385:37)
+      at Parser.onHeaderValue (node:internal/deps/undici/undici:7376:14)
+      at wasm_on_header_value (node:internal/deps/undici/undici:7132:34)
+      at wasm://wasm/00034eea:wasm-function[49]:0x994b
+      at wasm://wasm/00034eea:wasm-function[20]:0x8f80
+      at Parser.execute (node:internal/deps/undici/undici:7279:26)
+      at Parser.readMore (node:internal/deps/undici/undici:7255:16)
+      at TLSSocket.onHttpSocketReadable (node:internal/deps/undici/undici:7691:22)
+      at TLSSocket.emit (node:events:508:28)
+      at emitReadable_ (node:internal/streams/readable:836:12) {
+    code: 'UND_ERR_HEADERS_OVERFLOW'
+  }
+}
+
+Node.js v24.14.1

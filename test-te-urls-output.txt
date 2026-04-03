@@ -1,0 +1,32 @@
+
+URL https://tradingeconomics.com/united-states/russell-2000 matches 14
+https://d2n2sd20z6hutz.cloudfront.net/stylesheet.min.css
+https://d3e5kp2e91w0k0.cloudfront.net/favicon.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/appstore-lrg.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/google-play.png
+https://d107vmm87795sh.cloudfront.net/historical/te-alerts-bs5.js?v=20250711
+https://d107vmm87795sh.cloudfront.net/historical/te-alerts.js?v=20200117
+https://d1v8a2ofhkdel3.cloudfront.net/cdn/highstock_exporting.2024.10.1.0.js
+https://d2xewprs6ejfae.cloudfront.net/production/ec.min.css?v=20260219
+https://d2xewprs6ejfae.cloudfront.net/production/ec.min.js?v=20260219
+https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-csv-filled.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/microsoft-excel-filled.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-api.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/recommendations.png
+https://d3fy651gv2fhd3.cloudfront.net/charts/stream.png?h=200&w=300&lbl=0&url=
+
+URL https://tradingeconomics.com/united-states/nasdaq-composite matches 14
+https://d2n2sd20z6hutz.cloudfront.net/stylesheet.min.css
+https://d3e5kp2e91w0k0.cloudfront.net/favicon.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/appstore-lrg.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/google-play.png
+https://d107vmm87795sh.cloudfront.net/historical/te-alerts-bs5.js?v=20250711
+https://d107vmm87795sh.cloudfront.net/historical/te-alerts.js?v=20200117
+https://d1v8a2ofhkdel3.cloudfront.net/cdn/highstock_exporting.2024.10.1.0.js
+https://d2xewprs6ejfae.cloudfront.net/production/ec.min.css?v=20260219
+https://d2xewprs6ejfae.cloudfront.net/production/ec.min.js?v=20260219
+https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-csv-filled.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/microsoft-excel-filled.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/downloadicons/download-api.svg
+https://d3e5kp2e91w0k0.cloudfront.net/images/recommendations.png
+https://d3fy651gv2fhd3.cloudfront.net/charts/stream.png?h=200&w=300&lbl=0&url=

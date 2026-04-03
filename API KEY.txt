@@ -1,0 +1,4 @@
+FRED : e12ea99978090833970a0d8e100a2ece
+Alpha Vantage : SXXY13T2V7VDIJOF
+
+https://github.com/7272cjswo4885-cell/stock-dashboard.git

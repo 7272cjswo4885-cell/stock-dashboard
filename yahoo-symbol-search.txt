@@ -1,0 +1,16 @@
+FILE yahoo-rut.html
+ TERM "symbol":"^RUT" idx -1
+ TERM "symbol":"^IXIC" idx -1
+ TERM "symbol":"DX-Y.NYB" idx -1
+ TERM "symbol":"^DJI" idx -1
+ TERM "ticker":"^RUT" idx 49813
+},"positions":{},"i13n":{"_yrid":"fsH86u31","colo":"gq1","lang":"en-US","mrkt":"us","navtype":"server","site":"finance","ver":"nimbus","theme":"auto","auth_state":"signed_out","pct":"qsp","pg_name":"summary","milestone":"","pl1":"us_market","pl2":"WCB","pstcat":"indices","pt":"utility","rvt":"^RUT","ticker":"^RUT","tickers":{},"earnings":{},"spaceid":"95993639","consent":{"allowContentPersonalization":false,"allowCrossDeviceMapping":false,"allowFirstPartyAds":false,"allowSellPersonalInfo":false,"canEmbedThirdPartyContent":false,"canSell":false,"consentedVendors":[]},"authed":"0","ynet":"0","ss
+ TERM "ticker":"^IXIC" idx -1
+FILE yahoo-ixic.html
+ TERM "symbol":"^RUT" idx -1
+ TERM "symbol":"^IXIC" idx -1
+ TERM "symbol":"DX-Y.NYB" idx -1
+ TERM "symbol":"^DJI" idx -1
+ TERM "ticker":"^RUT" idx -1
+ TERM "ticker":"^IXIC" idx 49812
+,"positions":{},"i13n":{"_yrid":"fsyDcrfh","colo":"gq1","lang":"en-US","mrkt":"us","navtype":"server","site":"finance","ver":"nimbus","theme":"auto","auth_state":"signed_out","pct":"qsp","pg_name":"summary","milestone":"","pl1":"us_market","pl2":"NIM","pstcat":"indices","pt":"utility","rvt":"^IXIC","ticker":"^IXIC","tickers":{},"earnings":{},"spaceid":"95993639","consent":{"allowContentPersonalization":false,"allowCrossDeviceMapping":false,"allowFirstPartyAds":false,"allowSellPersonalInfo":false,"canEmbedThirdPartyContent":false,"canSell":false,"consentedVendors":[]},"authed":"0","ynet":"0","s
