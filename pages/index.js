@@ -1,23 +1,7 @@
 import { useState, useRef, useEffect, useMemo } from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
-// 실데이터 로딩 — 페이지 열릴 때 자동 실행
-export async function getServerSideProps() {
-  try {
-    const base = process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000";
-    const [dataRes, quotesRes] = await Promise.all([
-      fetch(`${base}/api/data`),
-      fetch(`${base}/api/quotes?symbols=QQQM,NVDA,AAPL,GOOGL,META,TSLA`),
-    ]);
-    const data = await dataRes.json();
-    const quotePayload = await quotesRes.json();
-    return { props: { liveData: data, initialQuotes: quotePayload.quotes || {} } };
-  } catch {
-    return { props: { liveData: null, initialQuotes: {} } };
-  }
-}
+// 클라이언트 사이드 데이터 페칭으로 변경 (서버 렌더링 에러 방지)
 
 // ─── 종목 목록 ───────────────────────────────────────────────────
 const DEFAULT_STOCKS = [
@@ -800,14 +784,14 @@ function MacroCard({ind, mode}){
 }
 
 // ─── 메인 앱 ─────────────────────────────────────────────────────
-export default function App({ liveData, initialQuotes }) {
-  // 실데이터만 사용합니다. 모의 데이터는 더 이상 병합하지 않습니다.
+export default function App() {
+  const[liveData, setLiveData] = useState({});
   const md = liveData || {};
   const macroDefs = resolveMacroDefs(md);
   const[stocks,setStocks]=useState(DEFAULT_STOCKS);
   const[sel,setSel]=useState("QQQM");
   const[tab,setTab]=useState("overview");
-  const[quotes,setQuotes]=useState(initialQuotes || {});
+  const[quotes,setQuotes]=useState({});
   const[showSearch,setShowSearch]=useState(false);
   const[delMode,setDelMode]=useState(false);
   const[investMode,setInvestMode]=useState("dca");
@@ -815,6 +799,25 @@ export default function App({ liveData, initialQuotes }) {
   const[modeOpen,setModeOpen]=useState(true);
   const[keyOnly,setKeyOnly]=useState(false);
   const[dataTime,setDataTime]=useState("");  // ✅ 빈 문자열로 시작 (서버/클라이언트 동일)
+
+  // ✅ 클라이언트 초기 데이터 페칭
+  useEffect(()=>{
+    const fetchInitialData = async () => {
+      try {
+        const [dataRes, quotesRes] = await Promise.all([
+          fetch(`/api/data`),
+          fetch(`/api/quotes?symbols=QQQM,NVDA,AAPL,GOOGL,META,TSLA`),
+        ]);
+        const data = await dataRes.json();
+        const quotePayload = await quotesRes.json();
+        setLiveData(data);
+        setQuotes(quotePayload.quotes || {});
+      } catch(e) {
+        console.error("Failed to fetch initial data:", e);
+      }
+    };
+    fetchInitialData();
+  }, []);
 
   // ✅ 클라이언트에서만 시간 표시 — hydration 에러 방지
   useEffect(()=>{
