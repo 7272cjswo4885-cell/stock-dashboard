@@ -975,7 +975,7 @@ export default function App() {
           </div>
           <div style={{display:"flex",gap:7,flexWrap:"wrap",alignItems:"center"}}>
             {stocks.map(s=>{
-              const sc=stockData[s.id]?calcScore(stockData[s.id],mode.weights).total:50;
+              const sc=stockData[s.id]?calcScore(stockData[s.id],mode.weights,md).total:50;
               const sg=sig(sc);
               return(
                 <div key={s.id} style={{position:"relative"}}>
@@ -1047,7 +1047,7 @@ export default function App() {
             <div style={{marginTop:10,display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:8}}>
               {stocks.map(s=>{
                 const d2=stockData[s.id]; if(!d2)return null;
-                const sc=calcScore(d2,mode.weights).total; const sg=sig(sc);
+                const sc=calcScore(d2,mode.weights,md).total; const sg=sig(sc);
                 return(<div key={s.id} onClick={()=>setSel(s.id)} className="ch" style={{padding:"11px",borderRadius:10,cursor:"pointer",background:sel===s.id?`rgba(${rgb(s.color)},0.1)`:"rgba(255,255,255,0.03)",border:sel===s.id?`1px solid ${s.color}55`:"1px solid rgba(255,255,255,0.07)",transition:"all 0.2s"}}>
                   <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:4}}>
                     <span style={{fontSize:11,fontWeight:700,color:s.color}}>{s.icon} {s.id}</span>
